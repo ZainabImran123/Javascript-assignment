@@ -38,12 +38,9 @@ document.write("Score of tony is 480.Percentage:96%"+"<br>"+"<br>"+"<br>")
 
 
 var scores =[320,230,480,120]
-var order = [120,230,320,480]
+
 document.write("Score of student: "+scores+"<br>")
-scores.sort(function(a,b){
-     return a-b
-});
-document.write("Ordered score of student: "+order+"<br>"+"<br>"+"<br>")
+document.write(number.sort);
 
 
 
