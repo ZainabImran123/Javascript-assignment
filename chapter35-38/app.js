@@ -18,16 +18,6 @@ alert(Namee+" "+Nameee)
 
 
 
-function fullSum(){
-    alert("the total is "+fullSum)
-}
-var Numm = prompt("Enter your First.Number")
-var Nummm = prompt("Enter your Last.Number")
-alert(Numm+Nummm)
-
-
-
-
 
 function calculator(num1 , num2 , operator){
     let result;
@@ -63,6 +53,21 @@ alert("Factorial of 5 is "+factorial(5))
 
 
 
+
+
+function sum(num1,num2){
+    var add = num1+num2
+    return add
+}
+var num1 = Number(prompt("enter a number"))
+var num2 = Number(prompt("enter a number"))
+console.log(sum(num1,num2));
+
+
+
+
+
+
 function counting(start,end){
     for(let i = start; i <= end; i++){
         alert(i+"<br>")
@@ -84,6 +89,47 @@ function rectangle(width,height){
     return width*height
 }
 alert("Area(variable):"+rectangle(w,h))
+
+
+
+
+
+
+
+function calculator(num1,num2,operator){
+    var operation;
+    if(operator == "+"){
+        operation = num1+num2
+    }
+    else if(operator == "-"){
+        operation = num1-num2
+    }
+    else if(operator == "*"){
+        operation = num1*num2
+    }
+    else if(operator == "/"){
+        operation = num1/num2
+    }else{
+        operation = "invalid operator"
+    }
+    return operation
+
+}
+var num3 = Number(prompt("enter a number"))
+var num4 = Number(prompt("enter another number"))
+var num5 = prompt("enter an operator (+ - * /)")
+
+console.log(calculator(num3,num4,num5));
+
+
+
+
+
+
+
+
+
+
 
 
 
