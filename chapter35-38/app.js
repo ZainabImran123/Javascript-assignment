@@ -48,7 +48,8 @@ function factorial(num){
     }
     return result
 }
-alert("Factorial of 5 is "+factorial(5))
+var fact = Number(prompt("enter a numver for fcatorial"))
+alert("Factorial is "+factorial(fact))
 
 
 
