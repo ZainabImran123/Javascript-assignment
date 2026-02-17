@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Form & Card</title>
+<link rel="stylesheet" href="link.css">
+<body>
+
+<div class="container">
+    <h2>User Form</h2>
+    <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required><br> <br>
+        <input type="text" id="fname" placeholder="F.Name" required><br> <br>
+        <input type="text" id="date" placeholder="Date of birth" required><br> <br>
+        <input type="email" id="email" placeholder="Email" required><br> <br>
+        <input type="text" id="phone" placeholder="Phone Number" required><br> <br>
+        <input type="text" id="number" placeholder="CNIC" required><br> <br>
+        <input type="text" id="address" placeholder="Address"><br> <br>
+        <input type="url" id="image" placeholder="Profile Image URL"><br> <br>
+        <button type="preview">Preview</button>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div class="card" id="userCard">
+    <img id="cardImage" src="" alt="Profile Image"> 
+    <h3 id="cardName"></h3>
+    <h3 id="cardFName"></h3>    
+    <p id="cardDate"></p>
+    <p id="cardEmail"></p>
+    <p id="cardPhone"></p>
+    <p id="cardNumber"></p>
+    <p id="cardAddress"></p>
+    <p id="cardImage"></p>
+</div>
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
