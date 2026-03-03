@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <ul>pizza
+        <li>Margherita Pizza</li>
+        <li>Pepperoni Pizza</li>
+        <li>Supreme Pizza</li>
+        <li>Capricciosa Pizza</li>
+        <li>Four-Cheese Pizza</li>
+        <li>Marinara Pizza</li>
+    </ul>
+    <ul>Cake
+    <span id="remaining" style="display: none;">
+         <li>Vanilla</li>
+         <li>Butterscotch</li>
+         <li>Chocolate</li>
+         <li>Red Velvet</li>
+         <li>Marble</li>
+         <li>Lotus Biscoff</li>
+         <li>Mocha</li>
+         <li>Strawberry</li>
+        <li>Pineapple</li>
+        <li>Mango</li>
+        <li>Coconut</li>
+        </span>
+        </ul>
+<a href="#" id="link" onclick="expandText()">See more</a>
+
+
+
+
+<h2>Signup Form</h2>
+
+<form onsubmit="showData(event)">
+  Name: <input type="text" id="name" required><br><br>
+  Email: <input type="email" id="email" required><br><br>
+  Password: <input type="password" id="password" required><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<h3>Submitted Data:</h3>
+<p id="result"></p>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
